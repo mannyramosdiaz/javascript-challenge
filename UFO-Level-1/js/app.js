@@ -47,34 +47,3 @@ let search = function (input) {
 
 let button = d3.select("#filter-btn");
 button.on("click", search);
-
-// //alternative path to input  on html
-// let button = d3.select("#datetime");
-
-// //Input activate function section
-// button.on("change", search);
-
-// d3.selectAll(input, function (input){
-
-//   console.log(input.node());
-
-  // if (input === tableData.datetime)
-  // {
-    
-  //    console.log(tableData)
-    
-  // }
-// })
-
-// let search = function(event) {
-// // return tableData[]
-//    var inputText = d3.event.target.value;
-//    if (tableData.datetime === inputText){
-//    console.log(tableData[inputText])
-//    }
-
-
-
-// tableData.forEach(event => {
-//   if (tableData.datetime = event)
-//   console.log(tableData)
